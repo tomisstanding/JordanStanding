@@ -19,12 +19,6 @@ a:hover {
   margin: 10px;
 }
 
-.col-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container {
   display: flex;
   margin: 0 auto;
@@ -59,8 +53,9 @@ footer {
 }
 
 .footer-item img {
-  height: 15px;
-  width: 15px;
+  height: 18px;
+  width: 18px;
+  margin: -3px;
 }
 
 h1 {
@@ -106,6 +101,7 @@ li {
 .name {
   color: black;
   margin-top: 55px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #newsletter {
