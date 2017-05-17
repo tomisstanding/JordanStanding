@@ -11,6 +11,7 @@ a, #nav{
 
 a:hover {
   color: pink;
+  font-size: 17px;
 }
 
 .col {
