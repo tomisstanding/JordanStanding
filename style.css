@@ -10,7 +10,7 @@ a, #nav{
 }
 
 a:hover {
-  text-decoration: underline;
+  color: pink;
 }
 
 .col {
@@ -95,6 +95,11 @@ li {
   font-size: 14px;
   list-style-type: none;
   margin: 0;
+}
+
+.name {
+  color: black;
+  margin-top: 55px;
 }
 
 #newsletter {
