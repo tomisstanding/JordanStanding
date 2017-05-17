@@ -19,6 +19,12 @@ a:hover {
   margin: 10px;
 }
 
+.col-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   display: flex;
   margin: 0 auto;
