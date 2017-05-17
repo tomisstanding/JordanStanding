@@ -1,1 +1,1 @@
-# JordanStanding.github.io
+# Portfolio website for Jordan Standing
