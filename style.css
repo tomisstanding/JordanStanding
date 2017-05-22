@@ -80,6 +80,7 @@ h5 {
 
 #header-img {
   width: 100%;
+  height: auto;
   margin: 0 auto;
   background-size: contain;
 }
