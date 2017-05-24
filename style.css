@@ -20,6 +20,13 @@ a:hover {
   margin: 10px;
 }
 
+.col-home {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
 .container {
   display: flex;
   margin: 0 auto;
@@ -72,6 +79,13 @@ h2 {
   font-size: 30px;
 }
 
+#head {
+  color: pink;
+  text-decoration: overline;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
 h5 {
   margin: 5px 0;
   font-family: 'Ubuntu', sans-serif;
@@ -89,7 +103,10 @@ h5 {
   width: 100%;
   height: 10%;
   margin: 0 auto;
-  /*background-size: contain;*/
+}
+
+.home {
+  justify-content: center;
 }
 
 input {
@@ -108,10 +125,9 @@ li {
 }
 
 .name {
-  color: black;
-  margin-top: 55px;
-  font-family: 'Playfair Display', serif;
-  margin-left: 20px;
+  margin-top: 15px;
+  height: 75px;
+  padding-right: 100%;
 }
 
 #newsletter {
@@ -155,9 +171,10 @@ section {
 ul#nav {
   font-family: 'Playfair Display', serif;
   padding: 10px 0;
-  margin: 40px;
+  margin: 20px;
   text-align: right;
   text-decoration: none;
+  letter-spacing: 3px;
 }
 
 
@@ -171,20 +188,20 @@ ul#nav {
     display: block;
   }
 
-  ul, #nav {
-    margin: 40px 0 32px 0;
-    padding: 14px 0 0 0;
-    width: 90%;
-    height: 10px;
+  ul#nav {
+    text-align: right;
+    text-decoration: none;
+    margin: 10px;
+    letter-spacing: 3px;
   }
 
   li, #nav {
-    padding-left: 55px;
+    margin: 4px;
   }
 
   a, #nav{
     margin: -10px auto;
-    padding-right: 15px;
+    padding-right: 0px;
   }
 
   footer {
@@ -218,7 +235,7 @@ ul#nav {
   .name {
     padding-left: 0px;
     padding-bottom: 20px;
-    font-size: 25px;
+    height: 55px;
   }
 
   #social {
