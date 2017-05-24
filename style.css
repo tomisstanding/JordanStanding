@@ -95,7 +95,7 @@ h5 {
 #header-img {
   width: 100%;
   height: auto;
-  margin: -5px auto;
+  margin: 170px 0px -10px auto;
   background-size: contain;
 }
 
@@ -125,9 +125,9 @@ li {
 }
 
 .name {
-  margin-top: 15px;
+  margin-top: 50px;
   height: 75px;
-  padding-right: 100%;
+  padding-right: 200px;
 }
 
 #newsletter {
@@ -170,8 +170,7 @@ section {
 
 ul#nav {
   font-family: 'Playfair Display', serif;
-  padding: 10px 0;
-  margin: 20px;
+  margin: -45px 0px -145px 0px;
   text-align: right;
   text-decoration: none;
   letter-spacing: 3px;
@@ -232,10 +231,17 @@ ul#nav {
     margin-left: 10px;
   }
 
+  #header-img {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px -75px auto;
+    background-size: contain;
+  }
+
   .name {
     padding-left: 0px;
     padding-bottom: 20px;
-    height: 55px;
+    height: 60px;
   }
 
   #social {
