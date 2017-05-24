@@ -176,6 +176,14 @@ ul#nav {
   letter-spacing: 3px;
 }
 
+ul#nav2 {
+  font-family: 'Playfair Display', serif;
+  margin: -45px 0px 0px 0px;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -191,6 +199,14 @@ ul#nav {
     text-align: right;
     text-decoration: none;
     margin: 10px;
+    letter-spacing: 3px;
+  }
+
+  ul#nav2 {
+    font-family: 'Playfair Display', serif;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+    text-decoration: none;
     letter-spacing: 3px;
   }
 
