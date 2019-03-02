@@ -146,9 +146,12 @@ li {
 }
 
 p {
-  margin: 10px 0;
+  line-height: 1.25em;
 }
-
+.col-home p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
 .post-comment {
   margin: 10px 0;
   font-family: 'Ubuntu', sans-serif;
@@ -279,6 +282,18 @@ ul#nav2 {
 
   #social {
     padding: 5px 35px 0px 0px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p, .col-home p {
+    font-size: 14px;
+  }
+
+  #head {
+    margin-bottom: 5px;
   }
 
 }
