@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 a, #nav{
   text-decoration: none;
   color: gray;
@@ -196,7 +201,7 @@ ul#nav2 {
   }
 
   ul#nav {
-    text-align: right;
+    text-align: center;
     text-decoration: none;
     margin: 10px;
     letter-spacing: 3px;
@@ -254,11 +259,22 @@ ul#nav2 {
     background-size: contain;
   }
 
+  .col {
+    flex: 1;
+    padding: 0;
+    margin: 10% auto;
+  }
+
   .name {
-    padding-left: 0px;
-    padding-bottom: 20px;
-    height: 58px;
-    padding-right: 0px;
+    margin: 10% auto 0 auto;
+    padding: 0;
+    height: auto;
+    max-width: 100%;
+  }
+  .col-home {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5%;
   }
 
   #social {
