@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
   $(".lazy").Lazy();
-  console.log("sdfsdf");
+
+  $('a').on('click', function(ev) {
+    // ev.preventDefault();
+  });
+
 });
